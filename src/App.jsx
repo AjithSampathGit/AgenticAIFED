@@ -19,7 +19,7 @@ export default function App() {
   };
 
   const handleAgenticResponse = async () => {
-    const res = await fetch("https://your-api.onrender.com/evaluate", {
+    const res = await fetch("https://agenticaibed.onrender.com/evaluate", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
